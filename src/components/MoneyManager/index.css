@@ -1,0 +1,166 @@
+/* Write your CSS here */
+.bg {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 200vh; */
+  overflow-y: auto;
+  padding: 10px;
+  padding-top: 50px;
+}
+.card {
+  display: flex;
+  width: 95%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profile {
+  align-self: stretch;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  text-align: left;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 18px;
+  border-radius: 16px;
+}
+@media screen and (max-width: 767px) {
+  .profile {
+    text-align: center;
+  }
+}
+.p-head {
+  color: #475569;
+  font-weight: bolder;
+}
+.p-para {
+  color: #475569;
+}
+.website-name {
+  color: #0b69ff;
+  font-weight: bold;
+}
+.transaction-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .transaction-container {
+    flex-direction: column;
+  }
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background-color: #ffffff;
+  border: #cbd5e1 solid 1px;
+  border-radius: 16px;
+  padding: 5px;
+  padding-bottom: 30px;
+  margin-right: 20px;
+}
+@media screen and (max-width: 767px) {
+  .form {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+}
+.t-part1 {
+  box-sizing: border-box;
+  /* text-align: left; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* padding: 5px; */
+  width: 90%;
+}
+.head-p1 {
+  color: #475569;
+  font-weight: bold;
+  font-size: 28px;
+}
+.label-name {
+  color: #7e858e;
+  margin-bottom: 3px;
+}
+.input-enter {
+  margin-bottom: 12px;
+  width: 90%;
+  height: 50px;
+  border: #cbd5e1 solid 1px;
+  border-radius: 8px;
+  padding-left: 8px;
+}
+
+.btn-p1 {
+  color: #ffffff;
+  background-color: #0b69ff;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 8px;
+  width: 10vw;
+}
+@media screen and (max-width: 767px) {
+  .btn-p1 {
+    width: 50vw;
+  }
+}
+.t-part2 {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  border: #cbd5e1 solid 1px;
+  border-radius: 16px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+@media screen and (max-width: 767px) {
+  .t-part2 {
+    width: 100%;
+  }
+}
+.head-part2 {
+  align-self: flex-start;
+  margin-left: 20px;
+  color: #475569;
+}
+.main-part2 {
+  width: 100%;
+  list-style-type: none;
+  padding-left: 0px;
+  margin-top: 0px;
+}
+.main-up-2 {
+  border: #7e858e solid 1px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  background-color: #ffffff;
+}
+.head {
+  /* margin-left: 98px; */
+  color: #000000;
+  font-weight: bold;
+}

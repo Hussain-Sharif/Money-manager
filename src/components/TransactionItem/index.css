@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.item {
+  border: #7e858e solid 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: #ffffff;
+  border-top: none;
+}
+.paras {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  padding-left: 30px;
+}
+.head1 {
+  color: #7e858e;
+  /* margin-left: 0px; */
+  text-align: left;
+}
+@media screen and (max-width: 767px) {
+  .head1 {
+    margin-right: 20px;
+  }
+}
+.head2 {
+  color: #7e858e;
+  margin-left: 20px;
+  text-align: left;
+}
+@media screen and (max-width: 767px) {
+  .head2 {
+    margin-left: 20px;
+  }
+  .head3 {
+    margin-left: 0px;
+    /* font-size: 16px; */
+  }
+}
+.head3 {
+  color: #7e858e;
+  padding-left: 30px;
+  text-align: left;
+}
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.delete-icon {
+  max-width: 16px;
+  max-height: 16px;
+}

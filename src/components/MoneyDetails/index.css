@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.details-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  padding-left: 0px;
+  /* margin-left: 0px; */
+  margin-bottom: 10px;
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .details-list {
+    flex-direction: column;
+  }
+}
+.list {
+  border-radius: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 30%;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 767px) {
+  .list {
+    width: 100%;
+  }
+}
+.bal {
+  background-color: #ecfccb;
+  border: #84cc16 solid 2px;
+}
+.inc {
+  background-color: #cffafe;
+  border: #06b6d4 solid 2px;
+}
+.exp {
+  background-color: #ede9fe;
+  border: #7c3aed solid 2px;
+}
+.details-icon {
+  max-height: 100px;
+  max-width: 100px;
+}
+.detail-type {
+  color: #7e858e;
+}
+.money {
+  color: #1e293b;
+  font-size: 26px;
+}
