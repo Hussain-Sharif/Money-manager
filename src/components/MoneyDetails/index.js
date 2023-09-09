@@ -16,8 +16,8 @@ class MoneyDetails extends Component {
     })
     const total = income - expenses
     return (
-      <ul className="details-list">
-        <li className="list bal">
+      <div className="details-list">
+        <div className="list bal">
           <div>
             <img
               className="details-icon"
@@ -31,8 +31,8 @@ class MoneyDetails extends Component {
               Rs {total}
             </p>
           </div>
-        </li>
-        <li className="list inc">
+        </div>
+        <div className="list inc">
           <div>
             <img
               className="details-icon"
@@ -46,8 +46,8 @@ class MoneyDetails extends Component {
               Rs {income}
             </p>
           </div>
-        </li>
-        <li className="list exp">
+        </div>
+        <div className="list exp">
           <div>
             <img
               className="details-icon"
@@ -61,8 +61,8 @@ class MoneyDetails extends Component {
               Rs {expenses}
             </p>
           </div>
-        </li>
-      </ul>
+        </div>
+      </div>
     )
   }
 }
